@@ -53,3 +53,41 @@
   background-color: beige;
   font-family: 'Jua', sans-serif;
 }
+
+
+.left-side h5{
+  font-style: bold;
+}
+
+.left-side .person_project{
+  margin: 10%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-top : -20%;
+  color: white;
+ }
+
+
+.right-side .right-text{
+ margin: 10%;
+ margin-left: 5%;
+ color: black;
+ margin-top: 1%
+}
+
+.right-side .right-text{
+  margin: 10%;
+  margin-left: 5%;
+  color: black;
+  margin-top: 4%
+ }
+
+ .right-side .right-text .right-title{
+  
+  margin-left: 10%;
+  
+  
+ }
+
+ 
+

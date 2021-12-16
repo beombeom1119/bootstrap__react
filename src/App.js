@@ -9,7 +9,6 @@ const App = () => {
       <div className='left-side'>
       <LeftSide></LeftSide>
       </div>
-s
       <div className='right-side'>
       <RightSide></RightSide>
       </div>

@@ -1,18 +1,21 @@
 import React, { useState } from 'react'
-import personphoto from '../../src/photo.gif'
+// import personphoto from '../../src/photo.gif'
+import personphoto from '../../src/photo.jpg'
 import { ProgressBar } from 'react-bootstrap'
 
 const LeftSide = () => {
 
-    const [certificate, setCertificate] = useState({1:"정보처리기사" ,2:"COS Pro Python"})
+
+    const [certificates, setCertificates] = useState(["정보처리기사","COS Pro Python"])
     const [name, setname] = useState("이범기")
     const [number, setNumber] = useState("010-9084-3455")
     const [mail, setMail] = useState("qjarl1119@naver.com")
     const [lang, setLang] = useState({java:80, nodejs:60, python:30, javascript:70})
     
-
-
+    const certificateList = certificates.map((certicate)=> (<>{certicate}</>)) 
+    
     return (
+        
         <>
         <div>
             <img className="person_photo" src={personphoto}  />
@@ -31,14 +34,9 @@ const LeftSide = () => {
         </div>
         <div className="person_certificate">
             <h5> 자격증 </h5>
-            {certificate[1]}<br/>               
-            {certificate[2]}
-            
+            {certificateList}
         </div>
-
         </>
-    
-
     )
 }
 
