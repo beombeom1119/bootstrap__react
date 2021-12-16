@@ -20,7 +20,10 @@ const RightSide = () => {
 
                 <Accordion.Item eventKey="1" className='accordion'>
                     <Accordion.Header>학력 사항</Accordion.Header>
-                    <Accordion.Body> {motivation}</Accordion.Body>
+                    <Accordion.Body>
+                        인천 송천고등학교 2013~2015<br/>
+                        성결대학교 2016~2021
+                    </Accordion.Body>
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="2" className='accordion'>

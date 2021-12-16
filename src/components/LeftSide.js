@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-// import personphoto from '../../src/photo.gif'
-import personphoto from '../../src/image/photo.jpg'
+import personphoto from '../../src/image/photo.gif'
+// import personphoto from '../../src/image/photo.jpg'
 import { ProgressBar } from 'react-bootstrap'
 
 const LeftSide = () => {
@@ -18,7 +18,7 @@ const LeftSide = () => {
         
         <>
         <div>
-            {/* <img className="person_photo" src={personphoto}  /> */}
+            <img className="person_photo" src={personphoto}  />
         </div>
         <div className="person_id">
             <h5> 이름 : {name} </h5>
