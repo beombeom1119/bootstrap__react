@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');       /*Google Font 가져오기*/
+
+.left-side{           /*왼쪽 영역으로 나눔*/
+  width: 25%;
+  float: left;
+  height: 2000px;
+  color: aliceblue;
+  background-color: black;
+  font-family: 'Jua', sans-serif;
+}
+
+.left-side .person_photo{
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-bottom: 0%;
+  width: 150px;
+}
+
+.left-side h5{
+   font-style: bold;
+}
+
+
+.left-side .person_id{
+  margin: 10%;
+  margin-left: 5%;
+  color: white;
+}
+
+.left-side .person_project{
+  margin: 10%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-top : -20%;
+  color: white;
+}
+
+.left-side .progress{
+  width: 70%;
+}
+.left-side .person_certificate{
+  margin: 10%;
+  margin-left: 5%;
+  color: white;
+}
+
+
+.right-side{        /*오른쪽 영역으로 나눔*/
+  width: 75%;
+  height: 2000px;
+  float: right;
+  box-sizing: border-box;
+  background-color: beige;
+  font-family: 'Jua', sans-serif;
+}
