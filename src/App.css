@@ -82,12 +82,20 @@
   margin-top: 4%
  }
 
- .right-side .right-text .right-title{
-  
-  margin-left: 10%;
-  
-  
+ .right-side .right-text-title{
+    font-style: bold;
+    font-size: 20px;
  }
+
+ .right-side .poto{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 40px;
+ }
+
+ .right-side .accordion{
+  margin-top: 5px;
+}
 
  
 

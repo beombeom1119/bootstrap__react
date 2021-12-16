@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import personphoto from '../../src/photo.gif'
-import personphoto from '../../src/photo.jpg'
+import personphoto from '../../src/image/photo.jpg'
 import { ProgressBar } from 'react-bootstrap'
 
 const LeftSide = () => {
@@ -12,13 +12,13 @@ const LeftSide = () => {
     const [mail, setMail] = useState("qjarl1119@naver.com")
     const [lang, setLang] = useState({java:80, nodejs:60, python:30, javascript:70})
     
-    const certificateList = certificates.map((certicate)=> (<>{certicate}</>)) 
+    const certificateList = certificates.map((certicate)=> (<>{certicate}<br/></>)) 
     
     return (
         
         <>
         <div>
-            <img className="person_photo" src={personphoto}  />
+            {/* <img className="person_photo" src={personphoto}  /> */}
         </div>
         <div className="person_id">
             <h5> 이름 : {name} </h5>
